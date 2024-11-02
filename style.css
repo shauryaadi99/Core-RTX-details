@@ -97,4 +97,15 @@
     background-color: #005582;
     color: white;
   }
-  
+.profile-pic1:hover, .profile-pic2:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+h2 {
+  transition: transform 0.3s; 
+}
+
+h2:hover {
+  transform: scale(1.1); 
+}
