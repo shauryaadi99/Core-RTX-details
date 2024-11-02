@@ -1,0 +1,100 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: wheat;
+    background-image: url('public/bcg.jpg');
+    background-size:cover ;
+  }
+/* .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6; 
+  } */
+
+  h1{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+  }
+  
+  
+  .column {
+    flex: 1;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-pic1 {
+    width: 180px;
+    height: 180px;
+    background-image: url('public/sarthak.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+  .profile-pic2 {
+    width: 180px;
+    height: 180px;
+    background-image: url('public/shaurya.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+  
+  .link-item {
+    width: 85%;
+    text-align: center;
+    padding: 15px;
+    margin: 8px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .instagram {
+    background-color: white;
+    border: 2px solid  #C13584;
+    color:  #C13584;
+  }
+  .github {
+    background-color: white;
+    border: 2px solid  #333;
+    color:  #333;
+}
+.linkedin {
+    background-color: white;
+    border: 2px solid  #0077B5;
+    color:  #0077B5;
+  }
+  
+  .instagram:hover {
+    background-color: #E1306C;
+    color: white;
+  }
+  .github:hover {
+    background-color: #555;
+    color: white;
+}
+.linkedin:hover {
+    background-color: #005582;
+    color: white;
+  }
+  
